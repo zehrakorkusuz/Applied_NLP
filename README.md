@@ -5,6 +5,8 @@ This repository contains the work done for the Applied NLP course at the Univers
 
 The goal of this project is to explore and compare the performance of ModernBERT against various DeBERTa variants. This involves setting up a Conda environment, working with real-world datasets, training models with different configurations, and assessing the models' effectiveness based on specific performance metrics.
 
+**Competition Context**: This dataset is used in the [Kaggle NBME - Score Clinical Patient Notes competition](https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/overview), where participants develop models to identify clinical features in patient notes.
+
 
 **Environment Setup**: Use of Conda to create and manage the project environment.
 
@@ -122,9 +124,9 @@ Below is a table summarizing the performance of various models trained in this p
 
 | Model Name        | Fold | Epoch | Accuracy | Notes                        |
 |------------------|------|-------|----------|------------------------------|
-| DeBERTa-v3-baseline | 5    | 3     | 86%    | train.csv |
-| DeBERTa-v3-large | 5    | 3     | 88%    | train.csv|
-| DeBERTa-v3-large-with-pseudo | 1    | 97%     | 91.8%    | train.csv +pseudo.csv |
+| DeBERTa-v3-baseline | 5    | 5     | 86%    | train.csv |
+| DeBERTa-v3-large | 5    | 5     | 88%    | train.csv|
+| DeBERTa-v3-large-with-pseudo | 1    |  4    | 97%    | train.csv +pseudo.csv |
 | ModernBERT-base | 1    | 4     | 80%    | train.csv |
 | ModernBERT-base-with-pseudo | 1  | 4       | 95%     | 91.6%    | train.csv + pseudo.csv |
 
