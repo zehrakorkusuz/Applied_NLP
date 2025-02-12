@@ -128,7 +128,7 @@ Below is a table summarizing the performance of various models trained in this p
 | DeBERTa-v3-large | 5    | 5     | 88%    | train.csv|
 | DeBERTa-v3-large-with-pseudo | 1    |  4    | 97%    | train.csv +pseudo.csv |
 | ModernBERT-base | 1    | 4     | 80%    | train.csv |
-| ModernBERT-base-with-pseudo | 1  | 4       | 95%     | 91.6%    | train.csv + pseudo.csv |
+| ModernBERT-base-with-pseudo | 1  | 4       | 95%      | train.csv + pseudo.csv |
 
 
 - DeBERTA-v3-large initially trained with train.csv; then used to generate pseudolabels and the model weights loaded and finetuned with the pseudolabels - which caused data leakage and >90% CV score. 
