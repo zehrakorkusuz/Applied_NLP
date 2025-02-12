@@ -49,3 +49,6 @@ miniconda/
 
 
 .zip
+
+# Kaggle API credentials
+kaggle.json
