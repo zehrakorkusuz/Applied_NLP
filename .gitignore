@@ -1,0 +1,51 @@
+# Model weights
+*.pth
+
+# Environment files
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyTorch
+*.pt
+*.h5
+*.bin
+
+# WandB
+wandb/
+wandb-debug.log
+
+# Git
+*.log
+*.lock
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# GitHub
+.github/
+
+# exclude
+Miniconda3-latest-Linux-x86_64.sh3/
+miniconda/
+
+
+.zip
